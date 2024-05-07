@@ -1,0 +1,19 @@
+{
+  "go.lintOnSave": "workspace",
+  "go.lintTool": "golangci-lint",
+  "go.lintFlags": ["--config=${workspaceFolder}/.golangci.toml", "--fast"],
+  "editor.tabSize": 2,
+  "files.associations": {
+    "Makefile*": "makefile"
+  },
+  "[json]": {
+    "editor.tabSize": 2,
+    "editor.indentSize": 2,
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.tabSize": 2,
+    "editor.indentSize": 2,
+    "editor.formatOnSave": true
+  }
+}
